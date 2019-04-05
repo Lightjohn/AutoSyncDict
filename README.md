@@ -13,9 +13,9 @@ The easiest way to install this library is to run this command
 ```python
 In [1]: from autoSyncDict import AutoSyncDict                                                                                               
 
-In [2]: a = AutoSyncDict()                                                                                                                  
+In [2]: my_dict = AutoSyncDict()                                                                                                                  
 
-In [3]: a["a"] = 5555 
+In [3]: my_dict["a"] = 5555 
 ```
 
 Then you can quit the session and open a new one
@@ -23,19 +23,19 @@ Then you can quit the session and open a new one
 ```python
 In [1]: from autoSyncDict import AutoSyncDict                                                                                               
 
-In [2]: a = AutoSyncDict()                                                                                                                  
+In [2]: my_dict = AutoSyncDict()                                                                                                                  
 
-In [3]: a                                                                                                                                   
+In [3]: my_dict                                                                                                                                   
 Out[3]: {'a': 5555}
 
 ```
 
 There is two kind of dict:
 
-* AutoSyncDict: will use **pickle** at the beginning and end of the object 
+* `AutoSyncDict`: will use **pickle** at the beginning and end of the object 
 life to load and save data
 
-* AutoDbDict: will use **sqlite** to store the data
+* `AutoDbDict`: will use **sqlite** to store the data
 
 ## Parameters
  
