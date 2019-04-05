@@ -20,7 +20,7 @@ In [3]: a["a"] = 5555
 
 Then you can quit the session and open a new one
 
-```pythonstub
+```python
 In [1]: from autoSyncDict import AutoSyncDict                                                                                               
 
 In [2]: a = AutoSyncDict()                                                                                                                  
