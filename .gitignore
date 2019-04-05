@@ -1,3 +1,4 @@
 .autodictdata*
 some_save
 .idea
+__pycache__

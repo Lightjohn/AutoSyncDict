@@ -1,6 +1,6 @@
 import unittest
 
-from .autoSyncDict import AutoSyncDict, AutoDbDict
+from .syncdicts import AutoSyncDict, AutoDbDict
 
 
 class MyTest(unittest.TestCase):
