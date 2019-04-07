@@ -4,6 +4,7 @@ from .syncdicts import AutoSyncDict, AutoDbDict
 
 
 class MyTest(unittest.TestCase):
+
     def test_puts(self):
         a = AutoSyncDict(".some_save", clean_start=True)
         values = [("a", 1), ("b", 2), ("c", 3), ("d", 4)]
@@ -93,3 +94,7 @@ class MyTest(unittest.TestCase):
 
         a["d"] = 5
         self.assertTrue(a == {"c": 3, "d": 5})
+
+
+if __name__ == '__main__':
+    unittest.main()

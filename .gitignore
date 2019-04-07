@@ -2,3 +2,5 @@
 some_save
 .idea
 __pycache__
+*.pyc
+.some_save
