@@ -2,6 +2,10 @@
 
 Python library to have easy dict like persistency for small lived scripts
 
+## Note
+
+Created and tested against `Python3` only
+
 ## How to install
 
 The easiest way to install this library is to run this command
