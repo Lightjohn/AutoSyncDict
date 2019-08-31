@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Lightjohn/AutoSyncDict.svg?branch=master)](https://travis-ci.org/Lightjohn/AutoSyncDict)
+
 # AutoSyncDict
 
 Python library to have easy dict like persistency for small lived scripts
